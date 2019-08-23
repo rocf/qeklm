@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import HeaderToolBar from "./HeaderToolBar/HeaderToolBar";
+import HeaderToolBar from "./components/HeaderToolBar";
 
 export default {
   name: "MainLayout",
