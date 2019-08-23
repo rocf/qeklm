@@ -25,7 +25,9 @@ import {
   QItem,
   QItemSection,
   QItemLabel,
-  QTooltip
+  QTooltip,
+  QBtnToggle,
+  QAvatar
 } from "quasar";
 
 Vue.use(Quasar, {
@@ -45,7 +47,9 @@ Vue.use(Quasar, {
     QItem,
     QItemSection,
     QItemLabel,
-    QTooltip
+    QTooltip,
+    QBtnToggle,
+    QAvatar
   },
   directives: {},
   plugins: {},
