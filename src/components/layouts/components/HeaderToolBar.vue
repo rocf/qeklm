@@ -20,7 +20,7 @@
         {icon: 'fas fa-fire', value:'popular', slot:'popular'},
         {icon: 'fas fa-user', value:'users', slot:'users'},
         {icon: 'fas fa-users', value:'groups', slot:'groups'},
-        {icon: 'fas fa-search', value:'search', slot:'search'},
+        {icon: 'fas fa-search', value:'search', slot:'search'}
         ]"
       >
         <template v-slot:categories>
@@ -44,16 +44,15 @@
         <template v-slot:search>
           <q-tooltip>搜索</q-tooltip>
         </template>
-        </q-btn-toggle>
+      </q-btn-toggle>
 
-        <q-toolbar-title></q-toolbar-title>
+      <q-toolbar-title></q-toolbar-title>
 
-        <q-btn flat square>
-          <q-avatar>
-            <img src="../../../assets/logo.png" />
-          </q-avatar>
-        </q-btn>
-      
+      <q-btn flat square>
+        <q-avatar>
+          <img src="../../../assets/logo.png" />
+        </q-avatar>
+      </q-btn>
     </q-toolbar>
   </q-header>
 </template>

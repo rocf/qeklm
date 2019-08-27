@@ -21,4 +21,11 @@ const otherRouter = {
     }
   ]
 };
-export const routes = [otherRouter];
+
+const page403 = {
+  path: "*",
+  name: "page403",
+  component: load("views/403")
+};
+
+export const routes = [otherRouter, page403];
