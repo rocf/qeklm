@@ -1,10 +1,11 @@
 <template>
   <q-header bordered class="bg-white text-grey-8">
     <q-toolbar class="container">
-      <q-btn flat type="a" @click="$router.push('home')">
+      <q-btn flat :ripple="false" type="a" @click="$router.push('home')">
         <q-avatar>
           <img src="../../../assets/logo.png" />
-        </q-avatar>Quasar App
+        </q-avatar>
+        Quasar App
       </q-btn>
       <q-btn-toggle
         flat
@@ -69,7 +70,7 @@ export default {
 
   methods: {
     input(value) {
-      router.push(value);
+      this.$router.push(value);
     }
   }
 };

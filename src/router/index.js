@@ -13,11 +13,12 @@ const Router = new VueRouter({
 
 Router.beforeEach((to, from, next) => {
   LoadingBar.start();
-  if (to.path === "/") {
-    next({ name: "home_index" });
-  } else {
-    next();
-  }
+  // if (to.path === "/") {
+  //   next({ name: "home_index" });
+  // } else {
+  //   next();
+  // }
+  next();
 });
 
 Router.afterEach((to, from, next) => {

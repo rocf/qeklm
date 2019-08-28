@@ -15,9 +15,9 @@ const otherRouter = {
       component: load("views/Home")
     },
     {
-      path: "about",
-      name: "about_page",
-      component: load("views/About")
+      path: "categories",
+      name: "categories_page",
+      component: load("views/Categories")
     }
   ]
 };

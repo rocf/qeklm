@@ -1,24 +1,54 @@
 .container {
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 15px;
-    padding-right: 15px
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 @media (min-width: 768px) {
-    .container {
-        width:750px
-    }
+  .container {
+    width: 750px;
+  }
 }
 
 @media (min-width: 992px) {
-    .container {
-        width:970px
-    }
+  .container {
+    width: 970px;
+  }
 }
 
 @media (min-width: 1200px) {
-    .container {
-        width:1170px
-    }
+  .container {
+    width: 1170px;
+  }
+}
+
+body.desktop .q-focusable:focus .q-focus-helper,
+body.desktop .q-hoverable:hover .q-focus-helper {
+  background: inherit;
+  opacity: 0;
+}
+.q-focus-helper {
+  opacity: 0;
+  transition: unset;
+}
+
+.categories {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none
+}
+
+a:focus,a:hover {
+    color: #23527c;
+}
+
+a:focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px
 }
